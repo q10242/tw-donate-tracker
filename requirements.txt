@@ -1,0 +1,5 @@
+tk
+tkinter
+requests
+threading
+pyinstaller
