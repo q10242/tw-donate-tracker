@@ -62,7 +62,7 @@ def crawl_data(names, base_url, params, type_mapping, output_file):
             if stop_crawling:  # 檢查是否需要停止爬取
                 crawl_info = f'已中斷爬取\n'
                 text_output.insert(tk.END, crawl_info)
-                break
+                return
             params['keyword'] = name
             current_page = 1
             
